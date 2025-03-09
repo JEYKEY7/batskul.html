@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212;
+    color: white;
+    text-align: center;
+    background-image: url('gotham-background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+header img {
+    width: 200px;
+    height: auto;
+    animation: batmanGlow 2s infinite alternate;
+}
+
+@keyframes batmanGlow {
+    0% { filter: brightness(1); }
+    100% { filter: brightness(2); }
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    background-color: rgba(34, 34, 34, 0.8);
+    overflow: hidden;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffcc00;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ffffff;
+    text-shadow: 0 0 10px #ffcc00;
+}
+
+section {
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 10px;
+    background-color: rgba(30, 30, 30, 0.9);
+    max-width: 800px;
+    box-shadow: 0 0 10px rgba(255, 204, 0, 0.5);
+}
+
+section img {
+    border-radius: 50%;
+    box-shadow: 0 0 15px rgba(255, 204, 0, 0.7);
+    transition: transform 0.3s;
+}
+
+section img:hover {
+    transform: scale(1.1);
+}
+
+button {
+    background-color: #ffcc00;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #d4a200;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 10px;
+    margin-top: 20px;
+}
