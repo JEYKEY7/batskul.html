@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akademi Batman</title>
+    <link rel="stylesheet" href="batskull.css">
+</head>
+<body>
+    <header>
+        <img src="th (1).jpeg" alt="Lambang Batman" width="400">
+        <h1>Selamat Datang di Sekolah Akademi Batman</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#tentang">Tentang Kami</a></li>
+            <li><a href="#program">Program</a></li>
+            <li><a href="#kontak">Kontak</a></li>
+        </ul>
+    </nav>
+    <section id="tentang">
+        <h2>Tentang Kami</h2>
+        <p>Akademi Batman adalah pusat pelatihan eksklusif bagi individu yang bercita-cita menjadi pahlawan super sejati. Didirikan dengan semangat keadilan dan keberanian, akademi ini memberikan pelatihan intensif dalam berbagai bidang, seperti seni bela diri, strategi detektif, penggunaan teknologi canggih, serta peningkatan fisik dan mental.
+            Di akademi ini, setiap peserta akan dibimbing oleh instruktur terbaik yang memiliki pengalaman di bidang keamanan, investigasi, dan teknologi. Dengan fasilitas modern dan simulasi situasi nyata, para calon pahlawan akan dipersiapkan untuk menghadapi berbagai tantangan yang menguji kecerdasan, kekuatan, dan keberanian mereka.
+            Tujuan utama Akademi Batman adalah menciptakan individu yang tidak hanya memiliki kemampuan luar biasa, tetapi juga memiliki jiwa kepemimpinan dan komitmen terhadap keadilan. Jika Anda memiliki semangat untuk melindungi yang lemah dan menegakkan kebenaran, Akademi Batman adalah tempat yang tepat bagi Anda!
+            .</p>
+    </section>
+    <section id="program">
+        <h2>Program Pelatihan</h2>
+        <ul>
+            <li>Latihan Bela Diri</li>
+            <li>Strategi Detektif</li>
+            <li>Penggunaan Tehnologi</li>
+            <li>Pelatihan Fisik Intensif</li>
+        </ul>
+    </section>
+    <section id="profil">
+        <h2>Rektor Sekolah Akademi The Batman</h2>
+        <img src="foto jasah_page-0001.jpg" alt="Foto Saya" width="200">
+        <p>Nama:Raenaldi Ramadhan/Bruce Wayne</p>
+           TTL :27 Oktober 2004
+           Alamat :Gotham Residence
+    </section>
+    <section id="kontak">
+        <h2>Kontak Kami</h2>
+        <p>Email: info@akademibatman.com</p>
+        <p>Telepon: 123-456-789</p>
+    </section>
+    <footer>
+        <p>&copy; 2025 Akademi Batman. Semua Hak Dilindungi.</p>
+    </footer>
+</body>
+</html>
